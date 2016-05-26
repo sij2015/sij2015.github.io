@@ -1,0 +1,28 @@
+/*  Used: http://www.cleancss.com/css-beautify/; */
+
+/* Since my whole page is a canvas, only reason for this CSS code is to remove the scrollbars from the browsers. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+/* Content - Canvas */
+
+canvas {
+    display: block;
+}
+/* Content - YouTube Video */
+
+#player {
+    position: absolute;
+    bottom: 15%;
+    left: -480px;
+    width: 240px;
+    height: 193px;
+}
+/*either 480x385 if 4:3 video, or 640x385 for 16:9 content but I am using one half because ot the small windows*/
